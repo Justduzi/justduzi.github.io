@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duzi</title>
+  <link rel="icon" type="images/png" href="./img/lg.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/hover.css" />
+  <script src="https://kit.fontawesome.com/fb19a37df4.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.cdnfonts.com/css/calibre" rel="stylesheet">
+ 
+
+  <script src="myscript.js"></script>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="https://www.linkedin.com/in/duziegwuibe"><img src="./img/li.svg" alt="LinkedIn"
+        style="width:42px;height:42px;"></a>
+    <a href="https://www.github.com/justduzi"><img src="./img/gh.svg" alt="GitHub"
+        style="width:42px;height:42px;"></a>
+  </div>
+  <div class="intro">
+    <h1>Hello, I'm <span id="element"></span></h1>
+    <div class="itext">
+      <h2>I am data scientist living in the UK, I have a strong passion for data analytics, machine learning, and
+        artificial intelligence, along with a keen interest in all related fields.</h1>
+    </div>
+    <button class="btn hvr-icon-buzz" , onclick="location.href='mailto:duzi.egwuibe@gmail.com';"><i
+        class="fa-solid fa-envelope hvr-icon"></i>Say Hi!</button>
+    <a href="./doc/wcv.docx" download="DuziEgwuibeCV">
+      <button class="btn hvr-icon-buzz">
+        <i class="fa-solid fa-file-word hvr-icon"></i>
+        CV
+      </button></a>
+    <a href="./doc/pcv.pdf" target="_blank"><button class="btn hvr-icon-buzz"><i
+          class="fa-solid fa-file-pdf hvr-icon"></i>CV</button></a>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h3>about me{}</h3>
+    <h2>I am currently a freelance data analyst. I have completed a <mark class="red">Masters</mark> in <mark
+        class="red"> Data science</mark> from the Robert gordon university<br><br>Here are some technologies i am
+      working with:</h2>
+    <ul>
+      <li>TensorFlow</li>
+      <li>Python</li>
+      <li>Google Cloud Platform</li>
+      <li>Keras, Sklearn</li>
+      <li>Tableu</li>
+      <li>Excel, DAX, Power BI</li>
+      <li>Html, CSS</li>
+      <li>Unity C#</li>
+    </ul>
+    <br><br><br><br><br><br><br>
+    </h1><br>
+    <h3>things i've built{}</h3>
+    <div class="row">
+      <div class ="column">
+    <img class="iright" src="./img/sir.png"></div>
+    <div class="column">
+    <h4>SIR model</h4><h5>During <mark class="red">Covid</mark> i built a <mark class="red">web application</mark> that implements the <mark class="red">SIR</mark> (Susceptible-Infectious-Recovered) model, a mathematical model that describes the spread of infectious diseases. The web application allows users to input various parameters to simulate the spread of the disease.</h5>
+    <h5>Pyhton   Streamlit   <a href="https://www.https://github.com/Justduzi/Sir-model-streamlit"><img src="./img/gh.svg" alt="GitHub"
+      style="width:12px;height:12px;"></a></h5>
+    </div>
+    </div>
+    <div class="row">
+      <div class ="column">
+    <img class="iright" src="./img/GVR.png"></div>
+    <div class="column">
+    <h4>Global Vaccine Report</h4><h5>During Vaccination i built an <mark class="red"> interactive Tableu Dashboard</mark> to visualize the number of People <mark class="red">Fully vaccinate</mark> and <mark class="red">Partialy vaccinated</mark>for each <mark class="red">Country</mark>.I visualised the trend lines showing vaccinations and GDP Per capita to show <mark class="red"> Vaccine Dispaarity </mark></h5>
+    <h5>Tableu  <a href="https://www.https://github.com/Justduzi/Global-Vaccine-Report"><img src="./img/gh.svg" alt="GitHub"
+      style="width:12px;height:12px;"></a></h5>
+    </div>
+    </div>
+    <br>
+    <h3>more projects{}</h3>
+    <div class="row">
+      <div class="column">
+    <div class="card">
+      <div class="container">
+        <p><img class= "cleft" src="./img/folder.svg" style="width:42px;height:42px;">
+        <img class= "cright" src="./img/gh.svg" style="width:22px;height:22px;"></p><br>
+        <p><h6><b>Insurance Neural Network</b></h6></p>
+        <p><h5>A <mark class="red">nueral network</mark> developed to predict the <mark class="red">insurance charges</mark> for an individual patient using their age, sex, bmi, smoker an region</h5></p>
+      </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+      <div class="container">
+        <img class= "cleft" src="./img/folder.svg" style="width:42px;height:42px;">
+        <img class= "cright" src="./img/gh.svg" style="width:22px;height:22px;">
+        <h4><b>Sales Analysis</b></h4> 
+        <p>Architect & Engineer</p> 
+      </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+  <div class="foot">
+      
+  </div>
+
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: [" Duzi"],
+      typeSpeed: 50,
+    });
+  </script>
+  <!-- tsParticles div, not required, but it's recommended -->
+  <div id="tsparticles"></div>
+  <!-- https://github.com/matteobruni/tsparticles -->
+  <!-- https://www.jsdelivr.com/package/npm/tsparticles-slim -->
+  <!-- The bundle file contains all the necessary scripts for the slim version, instead of manually including them all -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+  <!-- https://www.jsdelivr.com/package/npm/tsparticles -->
+  <!-- The bundle file contains all the necessary scripts for the full version, instead of manually including them all -->
+  <!--<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.6/tsparticles.bundle.min.js"></script>-->
+  <script type="text/javascript">
+    // All options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
+    // The slim version doesn't have the following plugins:
+    // Absorbers, Emitters, PolygonMask, Interactivity Trail
+    const options = {
+      background: {
+        color: "0a192f", // the canvas background color
+      },
+      interactivity: {
+        events: {
+          onClick: {
+            // this handles the mouse click event
+            enable: true,
+            mode: "push", // this adds particles
+          },
+          onHover: {
+            // this handles the mouse hover event
+            enable: true,
+            mode: "repulse", // this make particles move away from the mouse
+          },
+        },
+        modes: {
+          push: {
+            quantity: 1, // number of particles to add
+          },
+          repulse: {
+            distance: 100, // the distance of the particles from the mouse
+          },
+        },
+      },
+      particles: {
+        links: {
+          enable: true, // this enables links between particles
+          opacity: 0.3,
+          distance: 200,
+          color: "#ccd6f6",
+        },
+        move: {
+          enable: true, // this makes particles move
+          speed: { min: 1, max: 3 }, // this is the speed of the particles
+        },
+        opacity: {
+          value: { min: 0.3, max: 0.7 }, // this sets the opacity of the particles
+        },
+        size: {
+          value: { min: 0.3, max: 0.5 }, // this sets the size of the particles
+        },
+      },
+    };
+
+    // tsParticles.load has two parameters, the first one is the id of the container, the second one is an object with the options
+    tsParticles.load("tsparticles", options);
+  </script>
+
+</body>
+</html>
